@@ -1,0 +1,6 @@
+<Files "roster.html">
+    AuthType Basic
+    AuthName "Restricted Access"
+    AuthUserFile "/../.htpasswd"
+    require Valid-user
+</Files>
